@@ -1,3 +1,4 @@
-from .mouse.__main__    import mouse
-from .keyboard.__main__ import keyboard
-from .joystick.__main__ import joysticks
+# author: github.com/gabriel-dornelles
+from .DEV_Joystick import Joystick   as joystick
+from .DEV_Keyboard import k_instance as keyboard
+from .DEV_Mouse    import m_instance as mouse
